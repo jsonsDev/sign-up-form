@@ -9,9 +9,11 @@
 <body>
     <div class="container">
         <div class="left">
-            <div class="logo-spot">
+            <div class="logo-bg">
+                <div class="odin">
                 <img class="logo" src="images/odin-lined.png">
                 <h1 class="logo-text">Odin</h1>
+                </div>
             </div>
             <div class="credit">
                 <p>Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
@@ -24,34 +26,32 @@
             </h2>
             <h2>You <em>know</em> you want to.</h2>
             <div class="form-container">
-                <form>
-                    <h2>Let's do this!</h2>
-                    <section>
-                        <p>
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="firstname" required />
-                        </p>
-                        <p> 
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="lastname" required />
-                        </p>
-                        <p>
-                            <label for="mail">Email</label>
-                            <input type="email" id="mail" name="user-mail" required />
-                        </p>
-                        <p>
-                            <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" name="phone-number">
-                        </p>
-                        <p>
-                            <label for="user-password">Password</label>
-                            <input type="password" id="user-password" name="user-password" required />
-                        </p>
-                        <p>
-                            <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password" name="confirm-password" required />
-                        </p>                        
-                    </section>
+                <h2>Let's do this!</h2>
+                <form class="create-account">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="firstname" required />
+                    </div>
+                    <div class="form-group"> 
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="lastname" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="user-mail" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-password">Password</label>
+                        <input type="password" id="user-password" name="user-password" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required />
+                    </div>                        
                     <button type="submit">Create Account</button>
                 </form>
                 <p>Already have an account? <a href="#">Log in</a></p>
