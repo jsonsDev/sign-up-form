@@ -25,9 +25,10 @@
                 Sign up <em>now</em> to get started.
             </h2>
             <h2>You <em>know</em> you want to.</h2>
+            <form>
             <div class="form-container">
-                <h2>Let's do this!</h2>
-                <form class="create-account">
+                <h2 class="form-header">Let's do this!</h2>
+                <div class="create-account">
                     <div class="form-group">
                         <label for="first-name">First Name</label>
                         <input type="text" id="first-name" name="firstname" required />
@@ -46,16 +47,17 @@
                     </div>
                     <div class="form-group">
                         <label for="user-password">Password</label>
-                        <input type="password" id="user-password" name="user-password" required />
+                        <input class="password" type="password" id="user-password" name="user-password" required />
                     </div>
                     <div class="form-group">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required />
-                    </div>                        
-                    <button type="submit">Create Account</button>
-                </form>
-                <p>Already have an account? <a href="#">Log in</a></p>
+                        <input class="confirm-password" type="password" id="confirm-password" name="confirm-password" required />
+                    </div>
+                </div>
             </div>
+                <button class="submit-btn" type="submit">Create Account</button>
+                <p>Already have an account? <a class="log-in" href="#">Log in</a></p>
+            </form>
         </div>
     </div>
 </body>
